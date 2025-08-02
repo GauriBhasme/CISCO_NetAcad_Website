@@ -1,70 +1,93 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 🌐 CISCO NetAcad Website
 
-## Available Scripts
+This is a responsive and dynamic web application for the CISCO Networking Academy, built with modern frontend tools and best practices. It serves as a hub for club updates, resources, and collaboration.
 
-In the project directory, you can run:
 
-### `npm start`
+## 📦 Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React (Frontend)
+- Tailwind CSS (Styling)
+- Node.js / Express (Optional backend)
+- MongoDB (Optional database)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## 🚀 Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Follow these steps to clone, install dependencies, and run the project on your local machine.
 
-### `npm run build`
+### 🔁 1. Clone the Repository
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+git clone https://github.com/GauriBhasme/CISCO_NetAcad_Website.git
+cd CISCO_NetAcad_Website
+```
+### 📦 2. Install Dependencies
+Make sure you have Node.js and npm installed. Then:
+```bash
+npm install
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+▶️ 3. Run the Development Server
+```bash
+npm start
+```
+Visit: http://localhost:3000 to view the site locally.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+🛠️ Project Structure
+```bash
 
-### `npm run eject`
+CISCO_NetAcad_Website/
+├── public/           # Static files
+├── src/
+│   ├── components/   # Reusable components
+│   ├── pages/        # Page-level components
+│   ├── App.jsx       # Root component
+│   └── index.js      # App entry point
+├── .gitignore
+├── package.json
+└── README.md
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+🤝 Contributing
+We welcome contributions! Follow these steps to create a pull request (PR):
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+🌱 1. Fork the Repository
+Click the Fork button on the top right of this repo.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+📥 2. Clone Your Fork
+```bash
+git clone https://github.com/your-username/CISCO_NetAcad_Website.git
+cd CISCO_NetAcad_Website
+```
 
-## Learn More
+🌳 3. Create a New Branch
+```bash
+git checkout -b your-feature-branch
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+💻 4. Make Changes and Commit
+```bash
+git add .
+git commit -m "Add: your feature or fix"
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+🚀 5. Push to Your Fork
+```bash
+git push origin your-feature-branch
+```
 
-### Code Splitting
+📬 6. Submit a Pull Request
+Go to your forked repo on GitHub
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Click “Compare & pull request”
+Add a clear title and description of what you’ve done
 
-### Analyzing the Bundle Size
+Submit!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+🙋‍♀️ Questions?
+Open an issue or reach out to @GauriBhasme.
+>>>>>>> 6ba62fa (Readme Added)
