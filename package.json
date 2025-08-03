@@ -1,65 +1,27 @@
 {
-<<<<<<< HEAD
   "name": "college-clubs-v3",
-  "version": "0.1.0",
-  "private": true,
-=======
-<<<<<<< HEAD
-  "devDependencies": {
-    "autoprefixer": "^10.4.21",
-    "postcss": "^8.5.6",
-    "tailwindcss": "^4.1.11"
-  },
-  "name": "clg_website2",
   "version": "1.0.0",
+  "private": true,
   "description": "",
   "main": "index.js",
->>>>>>> 6ba62fa (Readme Added)
-  "dependencies": {
-    "@testing-library/dom": "^10.4.1",
-    "@testing-library/jest-dom": "^6.6.4",
-    "@testing-library/react": "^16.3.0",
-    "@testing-library/user-event": "^13.5.0",
-    "lucide-react": "^0.536.0",
-    "react": "^19.1.1",
-    "react-dom": "^19.1.1",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
-  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-<<<<<<< HEAD
-=======
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs"
-=======
-  "name": "college-clubs-v3",
-  "version": "0.1.0",
-  "private": true,
   "dependencies": {
-    "@testing-library/dom": "^10.4.1",
-    "@testing-library/jest-dom": "^6.6.4",
-    "@testing-library/react": "^16.3.0",
-    "@testing-library/user-event": "^13.5.0",
     "lucide-react": "^0.536.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+  "devDependencies": {
+    "tailwindcss": "^4.1.11",
+    "postcss": "^8.5.6",
+    "autoprefixer": "^10.4.21"
   },
->>>>>>> 6ba62fa (Readme Added)
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -78,8 +40,4 @@
       "last 1 safari version"
     ]
   }
-<<<<<<< HEAD
-=======
->>>>>>> 6e1ca0b (Project_Initialized-v1)
->>>>>>> 6ba62fa (Readme Added)
 }
